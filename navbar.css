@@ -1,0 +1,29 @@
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding & border in size */}
+.navbar {
+    display: flex; /* Enable Flexbox */
+    justify-content: space-between; /* Left & right alignment */
+    align-items: center; /* Vertical center */
+    background-color: #b50e6f; /* Dark background */
+    padding: 10px 20px; /* Inner spacing */}
+.brand {
+    display: flex; /* Row layout */
+    align-items: center; /* Vertical center */
+    gap: 12px; /* Space between items */}
+.logo img {
+    width: 120px; /* Logo width */
+    height: auto; /* Keep aspect ratio */
+    display: block; /* Remove extra image space */}
+.brand-title {
+    color: white; /* White text */
+    font-size: 20px; /* Text size */
+    margin: 0; /* Remove default margin */}
+.nav-links {
+    display: flex; /* Horizontal menu */
+    list-style: none; /* Remove bullets */
+    gap: 20px; /* Space between links */
+}.nav-links a {
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */}
