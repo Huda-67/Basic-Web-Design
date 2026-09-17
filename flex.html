@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: beige;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+        background-color: #4CAF50;
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 25px;
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="box">Box 1 </div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+
+    </div>
+
+</body>
+</html>
