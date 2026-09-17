@@ -1,0 +1,27 @@
+*{
+    margin: 0; /* Remove default margin from all elements */
+    padding: 20px; /* Add 20px padding to all elements */
+    background-color: #d560ae; /* Set blue background color */
+    font-family: 'Arial', sans-serif; /* Set font family */
+}
+
+.album{
+    display: grid; /* Use CSS Grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    grid-auto-rows: 200px; /* Set each row height to 200px */
+    gap: 10px; /* Space between grid items */
+    max-width: 1000px; /* Maximum width of album */
+    margin: auto; /* Center the album horizontally */
+}
+
+.album img{
+    width: 100%; /* Make image fill its grid cell width */
+    height: 100%; /* Make image fill its grid cell height */
+    object-fit: cover; /* Crop image while maintaining aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.main-photo{
+    grid-column: span 3; /* Span across all 3 columns */
+    grid-row: span 3; /* Span across 3 rows */
+}
